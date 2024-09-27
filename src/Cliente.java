@@ -3,7 +3,6 @@ public class Cliente {
     private String cpf;
     private String nome;
     private Double valorEmCompras;
-    public Produto[] carrinho;
 
     // Sets
     public void setCpf(String cpf) {
@@ -34,9 +33,5 @@ public class Cliente {
     // Métodos
     public void realizarCompra(Produto prod) {
         this.valorEmCompras = this.valorEmCompras + prod.preco;
-    }
-
-    public void adicionarAoCarrinho(Produto prod) {
-        
     }
 }

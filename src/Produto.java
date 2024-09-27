@@ -16,7 +16,4 @@ public class Produto {
     }
 
     // Métodos
-    public void selecionado() {
-        this.quantidadeDisponivel = this.quantidadeDisponivel - 1;
-    }
 }

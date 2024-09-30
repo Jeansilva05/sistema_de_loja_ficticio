@@ -13,10 +13,10 @@ public class Carrinho {
         this.indice++;
     }
     
-    public void removerDoCarrinho(String cod) {
+    public void removerDoCarrinho(Produto prod, String cod) {
         for (int i = 0; i < this.indice; i++) {
-            if (Produto.codBarra == cod) {
-                this.produtos[i] = "";
+            if (prod.codBarra == cod) {
+                this.produtos[i].codBarra = "removido";
             }
         }
     }

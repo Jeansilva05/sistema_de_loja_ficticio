@@ -2,7 +2,7 @@ public class Produto {
     public Double preco;
     public String codBarra;
     public String categoria;
-    public String fonecedor;
+    public String fornecedor;
     private int quantidadeDisponivel;
 
     // Set

@@ -12,4 +12,12 @@ public class Carrinho {
         this.produtos[this.indice] = prod;
         this.indice++;
     }
+    
+    public void removerDoCarrinho(String cod) {
+        for (int i = 0; i < this.indice; i++) {
+            if (Produto.codBarra == cod) {
+                this.produtos[i] = "";
+            }
+        }
+    }
 }
